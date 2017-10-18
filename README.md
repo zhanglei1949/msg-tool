@@ -16,6 +16,9 @@ Run `msg-tool-test.sh` for test.
 # Usage 
 
 `msgtool s <type> <message test>` to send messages. It will automatically create one if this is none queues.
+
 `msgtool r <type>` to receive the message and print it on stdout.
+
 `msgtool d ` to delete the message queue in this directory.
+
 `msgtool m <octal mode>` to change the access mode.
